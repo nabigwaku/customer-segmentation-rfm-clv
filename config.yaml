@@ -1,0 +1,11 @@
+project_name: Customer Segmentation using RFM and CLV
+author: Nabigwaku Edward Samuel
+
+paths:
+  raw_data: data/raw/transactions.csv
+  processed_data: data/processed/rfm_segments.csv
+  prediction_output: outputs/data/customer_predictions.csv
+  image_output: outputs/images/
+
+model:
+  churn_threshold: 0.75
