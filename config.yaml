@@ -2,7 +2,7 @@ project_name: Customer Segmentation using RFM and CLV
 author: Nabigwaku Edward Samuel
 
 paths:
-  raw_data: data/raw/transactions.csv
+  raw_data: data/raw/online_retail_II.xlsx
   processed_data: data/processed/rfm_segments.csv
   prediction_output: outputs/data/customer_predictions.csv
   image_output: outputs/images/
