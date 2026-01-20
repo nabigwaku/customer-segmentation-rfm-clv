@@ -9,11 +9,11 @@ This project demonstrates how customer transaction data can be transformed into 
 
 ## Folder Structure
 
-- notebooks/ : main analysis notebook  
-- data/raw/ : original transaction data  
-- data/processed/ : engineered RFM data  
-- outputs/data/ : final predictive dataset  
-- outputs/images/ : charts and visuals  
+- `notebooks/` : main analysis notebook  
+- `data/raw/` : original transaction data  
+- `data/processed/` : engineered RFM data  
+- `outputs/data/` : final predictive dataset  
+- `outputs/images/` : charts and visuals  
 
 ## Business Use Case
 
