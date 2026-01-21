@@ -1,11 +1,19 @@
 project_name: Customer Segmentation using RFM and CLV
 author: Nabigwaku Edward Samuel
 
+# ==================== DATA SETTINGS ====================
+# Define the paths to the raw and processed data
 paths:
   raw_data: data/raw/online_retail_II.xlsx
   processed_data: data/processed/rfm_segments.csv
   prediction_output: outputs/data/customer_predictions.csv
   image_output: outputs/images/
 
+# ==================== MODEL SETTINGS ====================
+# Define the model parameters
 model:
   churn_threshold: 0.75
+
+# ==================== VISUALIZATION SETTINGS ====================
+# Colors for charts
+COLORS = ['#2E86AB', '#A23B72', '#F18F01', '#6A994E', '#C73E1D']
